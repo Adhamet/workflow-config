@@ -1,0 +1,114 @@
+* {
+    font-family: "JetBrainsMono Nerd Font", monospace;
+    font-size: 13px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: rgba(26, 26, 20, 0.8);
+    color: #d4a017;
+}
+
+#workspaces button {
+    padding: 0 8px;
+    color: #5c5c5c;
+    background: transparent;
+    border: none;
+}
+
+#workspaces button.focused {
+    color: #e0b020;
+    background: #666600;
+}
+
+#network, #pulseaudio, #temperature, #battery, #clock,
+#cpu, #memory, #backlight, #bluetooth, #idle_inhibitor, #custom-keyboard {
+    padding: 0 10px;
+    color: #d4a017;
+}
+
+/* Hover feedback */
+#network:hover, #pulseaudio:hover, #cpu:hover {
+    color: #ffcc00;
+}
+
+/* Temperature critical */
+#temperature.critical {
+    color: #ff4444;
+}
+
+/* Battery states */
+#battery.warning {
+    color: #ffaa00;
+}
+
+#battery.critical {
+    color: #ff4444;
+}
+
+/* Audio muted */
+#pulseaudio.muted {
+    color: #ff4444;
+}
+
+/* VPN status */
+#custom-vpn.connected {
+    color: #90EE90;
+}
+
+#custom-vpn.disconnected {
+    color: #888888;
+}
+
+#custom-vpn.disconnected:hover {
+    color: #ffaa00;
+}
+
+/* Recording indicator - red */
+#custom-recording.recording {
+    color: #ff4444;
+    animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.3; }
+    100% { opacity: 1; }
+}
+
+/* Now playing */
+#mpris {
+    color: #90EE90;
+    padding: 0 10px;
+}
+
+#mpris.paused {
+    color: #888888;
+}
+
+/* System tray */
+#tray {
+    padding: 0 10px;
+}
+
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+}
+
+/* Idle inhibitor */
+#idle_inhibitor.activated {
+    color: #90EE90;
+}
+
+#idle_inhibitor.deactivated {
+    color: #5c5c5c;
+}
+
+/* High CPU/Memory warning */
+#cpu.warning, #memory.warning {
+    color: #ffaa00;
+}
