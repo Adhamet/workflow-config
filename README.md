@@ -1,6 +1,6 @@
 # My Sway + Waybar Configuration
 
-This repository contains my personal configuration for the system & workflow.
+This repository contains my personal configuration for the system & workflow.  
 Using Sway as window manager, Waybar as status bar, Wofi as application launcher.  
 It is designed to be minimal, clean, easy to use, and efficient.
 
