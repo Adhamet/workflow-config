@@ -1,3 +1,18 @@
 # My Sway + Waybar Configuration
 
-Minimal configuration for Sway WM and Waybar on Fedora KDE distro. 
+This repository contains my personal configuration for the Sway window manager and Waybar.  
+It is designed to be minimal, clean, easy to use, and efficient.
+
+The setup is tested on **Fedora KDE**, running Sway as the Wayland tiling window manager.  
+Additional applications and refinements may be added over time as I continue improving the workflow.
+
+## Features
+- Lightweight and minimal Sway configuration  
+- Custom Waybar layout and styling  
+- Sensible default keybindings  
+- Focus on productivity, clarity, and low system overhead  
+
+## Future Plans
+- Add additional application configurations  
+- Provide screenshots and a full setup guide  
+- Expand Waybar modules and styling options  
