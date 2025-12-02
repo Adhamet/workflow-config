@@ -241,9 +241,10 @@ bindsym $mod+r mode "resize"
 # Status Bar:
 #
 # Read `man 5 sway-bar` for more information about this section.
-bar {
-      bar swaybar_command waybar
-}
+# always executes waybar and creates a file to track hidden status of waybar
+exec_always sh -c 'pkill waybar; [ !  -f /tmp/waybar_hidden ] && waybar'
+# toggle waybar on/off, unfortunately its done by killing it, not most efficient
+bindsym $mod+Ctrl+Alt+b exec ~/.config/sway/scripts/toggle-waybar.sh
 
 
 gaps inner 1
