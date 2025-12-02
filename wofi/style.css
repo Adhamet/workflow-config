@@ -1,0 +1,50 @@
+window {
+    background-color: rgba(26, 26, 20, 0.95);  /* dark forest bg, semi-transparent */
+    color: #d4a017;                             /* gold text */
+    font-family: "JetBrainsMono Nerd Font", monospace;
+    font-size: 12px;
+}
+
+#input {
+    background-color: #1a1a14;
+    color: #d4a017;
+    border: 2px solid #4a4a00;
+    padding: 10px;
+}
+
+#inner-box {
+    background-color: #1a1a14;
+}
+
+#outer-box {
+    background-color: #1a1a14;
+}
+
+#scroll {
+    background-color: #1a1a14;
+}
+
+#entry {
+    background-color: #1a1a14;
+    color: #d4a017;
+    padding: 8px;
+}
+
+#entry:selected {
+    background-color: #2d5a2d;  /* dark green */
+    color: #90EE90;             /* light green text when selected */
+    border-left: 3px solid #90EE90;
+}
+
+#entry:hover {
+    background-color: #2d5a2d;
+    color: #90EE90;
+}
+
+#text {
+    color: #d4a017;
+}
+
+#text:selected {
+    color: #90EE90;
+}
