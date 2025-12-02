@@ -2,7 +2,7 @@
 
 This repository contains my personal configuration for the system & workflow.  
 Using Sway as the window manager, Waybar as the status bar, Wofi as the application launcher.  
-It is designed to be minimal, clean, easy to use, and efficient.
+It is designed to be very minimal, clean, easy to use, and efficient.
 
 The setup is tested on **Fedora KDE**, running Sway as the Wayland tiling window manager.  
 Additional applications and refinements may be added over time as I continue improving the workflow.
