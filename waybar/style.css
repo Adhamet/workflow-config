@@ -5,20 +5,22 @@
 }
 
 window#waybar {
-    background: rgba(26, 26, 20, 0.8);
+    background: rgba(26, 26, 20, 0.9);
     color: #d4a017;
 }
 
 #workspaces button {
     padding: 0 8px;
     color: #5c5c5c;
-    background: transparent;
+    /* background: transparent; */
     border: none;
 }
 
 #workspaces button.focused {
     color: #e0b020;
     background: #666600;
+    border-radius: 0;
+    border: 1px solid #666600;
 }
 
 #network, #pulseaudio, #temperature, #battery, #clock,
