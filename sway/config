@@ -8,9 +8,9 @@
 exec /usr/libexec/gnome-keyring-daemon --start --foreground
 
 # Set default opacity for everything
-for_window [app_id=".*"] opacity 0.96
+for_window [app_id=".*"] opacity 0.92
 # Override for zen specifically
-for_window [app_id="zen"] opacity 0.98
+for_window [app_id="zen"] opacity 0.96
 
 ### Variables
 #
@@ -31,7 +31,7 @@ set $browser zen
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg ~/Pictures/wallpapers/in_the_leaf.jpg fill
+output * bg ~/Pictures/wallpapers/darker-plants.jpg fill
 #
 # Example configuration:
 #
