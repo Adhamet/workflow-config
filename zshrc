@@ -1,0 +1,1 @@
+/home/adhamet/.zshrc
