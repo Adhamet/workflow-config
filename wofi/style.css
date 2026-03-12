@@ -1,50 +1,57 @@
 window {
-    background-color: rgba(26, 26, 20, 0.95);  /* dark forest bg, semi-transparent */
-    color: #d4a017;                             /* gold text */
+    background-color: rgba(1, 36, 86, 0.95);    /* Campbell blue bg */
+    color: #cccccc;                              /* white text */
     font-family: "JetBrainsMono Nerd Font", monospace;
-    font-size: 12px;
+    font-size:  12px;
+    border: 2px solid #3b78ff;                   /* bright blue border */
+    border-radius: 10px;
 }
 
 #input {
-    background-color: #1a1a14;
-    color: #d4a017;
-    border: 2px solid #4a4a00;
+    background-color: #0a1530;
+    color: #f2f2f2;
+    border: 2px solid #3a96dd;                   /* cyan border */
+    border-radius: 5px;
     padding: 10px;
+    margin: 5px;
 }
 
 #inner-box {
-    background-color: #1a1a14;
+    background-color:  transparent;
+    margin: 5px;
 }
 
 #outer-box {
-    background-color: #1a1a14;
+    background-color: transparent;
+    padding: 10px;
 }
 
 #scroll {
-    background-color: #1a1a14;
+    background-color: transparent;
 }
 
 #entry {
-    background-color: #1a1a14;
-    color: #d4a017;
+    background-color: transparent;
+    color:  #cccccc;
     padding: 8px;
+    border-radius: 5px;
 }
 
 #entry:selected {
-    background-color: #2d5a2d;  /* dark green */
-    color: #90EE90;             /* light green text when selected */
-    border-left: 3px solid #90EE90;
+    background-color: #3b78ff;                   /* bright blue */
+    color:  #012456;                              /* dark blue text */
+    border-left: 3px solid #3a96dd;              /* cyan accent */
 }
 
 #entry:hover {
-    background-color: #2d5a2d;
-    color: #90EE90;
+    background-color: rgba(59, 120, 255, 0.5);   /* translucent blue */
+    color: #f2f2f2;
 }
 
 #text {
-    color: #d4a017;
+    color:  #cccccc;
 }
 
 #text:selected {
-    color: #90EE90;
+    color: #012456;
 }
